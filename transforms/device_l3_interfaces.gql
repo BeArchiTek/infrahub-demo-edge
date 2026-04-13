@@ -1,0 +1,15 @@
+query InfraDevice($name: String!) {
+  InfraDevice(name__value: $name) {
+    edges {
+      node {
+        interfaces {
+          edges {
+            node {
+              ...intferfaceL3Fragment
+            }
+          }
+        }
+      }
+    }
+  }
+}
