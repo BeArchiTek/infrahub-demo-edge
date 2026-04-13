@@ -1,0 +1,27 @@
+transforms/device_l3_interfaces.gql
+  a1ed5d6f42b0ca2c 1-15
+.infrahub.yml
+  a1ed5d6f42b0ca2c 74-77,99-100
+transforms/interface_l3_fragment.gql
+  a1ed5d6f42b0ca2c 1-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "1a4cfb9083f9324769933725e3d37e18a786634b",
+  "prompts": {
+    "a1ed5d6f42b0ca2c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c33e3daf-2c93-4ad9-95ac-ecb36bb4ce30",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Benoit Kohler",
+      "messages": [],
+      "total_additions": 381,
+      "total_deletions": 0,
+      "accepted_lines": 41,
+      "overriden_lines": 0
+    }
+  }
+}
