@@ -71,9 +71,9 @@ generator_definitions:
     parameters:
       name: "name__value"
 
-graphql_fragments:
-  - name: intferfaceL3Fragment
-    file_path: "transforms/interface_l3_fragment.gql"
+# graphql_fragments:
+#   - name: intferfaceL3Fragment
+#     file_path: "transforms/interface_l3_fragment.gql"
 
 queries:
   - name: topology_info
@@ -96,5 +96,5 @@ queries:
     file_path: "generators/backbone_service.gql"
   - name: computed_circuit_description
     file_path: "transforms/computed_circuit_description.gql"
-  - name: device_l3_interfaces
-    file_path: "transforms/device_l3_interfaces.gql"
+  # - name: device_l3_interfaces
+  #   file_path: "transforms/device_l3_interfaces.gql"
